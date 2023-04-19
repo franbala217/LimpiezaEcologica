@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tu título aquí</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2f2f2f;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-left: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .banner {
+            background-color: #00a99d;
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .banner h2 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .banner p {
+            font-size: 1.5rem;
+        }
+
+        .button {
+            background-color: #fff;
+            color: #2f2f2f;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .productos h2 {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .productos ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+        }
+
+        .productos li {
+            flex-basis: calc(33.33% - 20px);
+            text-align: center;
+        }
+
+        .productos img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .productos h3 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .productos p {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            background-color: #2f2f2f;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="img/LE.png" alt="Logo de tu sitio web">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="banner">
+            <h2>Bienvenidos a Limpieza Ecologica</h2>
+            <p>Nuestra empresa está comprometida con la preservación del medio ambiente y la promoción del ecologismo.
+                Nos enfocamos en brindar soluciones de limpieza sostenibles y responsables, utilizando productos y
+                prácticas respetuosas con el entorno. En nuestra página web encontrarás información detallada sobre
+                nuestros servicios y productos, así como también podrás conocer más acerca de nuestra filosofía y
+                compromiso con la sustentabilidad.</p>
+            <a href="#" class="button">Ver más</a>
+        </div>
+        <div class="productos">
+            <h2>Nuestros productos</h2>
+            <ul>
+                <li>
+                    <img src="img/LMBotanical.jpg" alt="Producto 1">
+                    <h3>Limpiador Multiusos</h3>
+                    <p>El equipo de BOTANICAL ORIGIN hemos puesto todo nuestro esfuerzo para encontrar una fórmula que
+                        fuera respetuosa con el medio ambiente y,
+                        al mismo tiempo, que no implicara renunciar a la eficacia. Si aún no has probado productos con
+                        ingredientes naturales porque piensas que no
+                        limpian, que no huelen bien o por cualquier otra razón. ¡Piénsatelo dos veces! Botanical Origin
+                        es una marca que contiene hasta 97 % de ingredientes
+                        de origen botánico, pero que no quiere renunciar a una limpieza efectiva. Limpieza ECO que
+                        funciona.</p>
+                    <a href="#" class="button">Más información</a>
+                </li>
+                <li>
+                    <img src="img/DRBotanical.jpg" alt="Producto 2">
+                    <h3>Detergente</h3>
+                    <p>Nuestro detergente para la ropa ecológico, con un ingredientes de origen botánico, elimina las
+                        manchas más difíciles incluso en agua fría, dejando la ropa limpia y con una intensa fragancia
+                        única. Además, no deja químicos abrasivos en la ropa que puedan causar una reacción adversa en
+                        pieles sensibles y no contiene ni colorantes ni abrillantadores artificiales. Puedes utilizarlo
+                        en la lavadora para la ropa de toda la familia, incluso la ropa de tu bebé. Cuenta con la
+                        etiqueta ecológica Ecolabel</p>
+                    <a href="#" class="button">Más información</a>
+                </li>
+                <li>
+                    <img src="img/LBEco.jpg" alt="Producto 3">
+                    <h3>Limpiador de baños</h3>
+                    <p>Producto diseñado para la limpieza de todo tipo de saneamientos, azulejos, griferías o mamparas.</p>
+                        <p>Se trata de un limpiador de extraordinaria eficacia.</p>
+                        <p>Elimina fácilmente los depósitos de cal, así como restos de jabón y otro tipo de manchas.</p>
+                        <p>Desincrusta y da brillo.</p>
+                        <p>El ácido cítrico tiene una gran capacidad de actuar como limpiador natural debido a su bajo pH y
+                        propiedades antibacterianas.</p>
+                        <p>PRODUCTO ECOLÓGICO, formulado con materia primas respetuosas con el medio ambiente.</p>
+                    <a href="#" class="button">Más información</a>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
